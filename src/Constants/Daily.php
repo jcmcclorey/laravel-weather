@@ -95,6 +95,26 @@ trait Daily
         return $this;
     }
 
+    public function precipitationProbabilityMax(): self
+    {
+        $this->withQuery(['daily' => 'precipitation_probability_max']);
+
+        return $this;
+    }
+
+    public function uvIndexClearSkyMax(): self
+    {
+        $this->withQuery(['daily' => 'uv_index_clear_sky_max']);
+
+        return $this;
+    }
+
+    public function uvIndexMax(): self
+    {
+        $this->withQuery(['daily' => 'uv_index_max']);
+    }
+
+
     public function allDaily(): self
     {
         $this
@@ -107,6 +127,9 @@ trait Daily
             ->dailyWeatherCode()
             ->sunrise()
             ->sunset()
+            ->uvIndexClearSkyMax()
+            ->uvIndexMax()
+            ->precipitationProbabilityMax()
             ->windSpeed_10mMax()
             ->windGusts_10mMax()
             ->windDirection_10mDominant()

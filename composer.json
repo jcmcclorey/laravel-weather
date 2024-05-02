@@ -1,8 +1,9 @@
 {
     "name": "astrodog/laravel-weather",
-    "description": "Package for get the weather data",
+    "description": "Package for the Free Open Meteo weather API",
     "keywords": [
         "MichaelNabil230",
+        "jcmcclorey",
         "laravel",
         "laravel-weather"
     ],
