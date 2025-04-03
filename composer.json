@@ -1,17 +1,22 @@
 {
-    "name": "michaelnabil230/laravel-weather",
+    "name": "astrodog/laravel-weather",
     "description": "Package for get the weather data",
     "keywords": [
         "MichaelNabil230",
         "laravel",
         "laravel-weather"
     ],
-    "homepage": "https://github.com/michaelnabil230/laravel-weather",
+    "homepage": "https://github.com/jcmcclorey/laravel-weather",
     "license": "MIT",
     "authors": [
         {
             "name": "Michael Nabil",
             "email": "michaelnabil926@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Joe McClorey",
+            "email": "jcmcclorey@protonmail.com",
             "role": "Developer"
         }
     ],
